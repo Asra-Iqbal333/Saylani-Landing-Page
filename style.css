@@ -1,0 +1,311 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.top-bar{
+    background-color:#316DC3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
+}
+#para{
+    color: cornsilk;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.logos{
+    display: flex;
+    align-items: center;
+    
+}
+.logos i{
+    color: cornsilk;
+    margin-right: 20px;
+}
+.whatsapp{
+    width: 20px;
+    height: 20px;
+}
+.saylani-logo{
+  
+    width: 200px;
+}
+.saylani-logo img{
+    width: 100%;
+    
+}
+.nav-bar{
+    background-color: #F7F8FA;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    
+}
+.nav-menu button{
+    border: none;
+    background-color: inherit;
+    padding: 8px 16px;
+    border-radius: 30px;
+    transition:0.5s all;
+}
+.nav-menu button:hover,
+.nav-menu button.active{
+    background-color:#316DC3;
+    color: ivory;
+    cursor: pointer;
+}
+.main-media{
+    width: 100%;
+    height: 477px;
+}
+.main-media img{
+    width: 100%;
+    height: 100%;
+}
+.blue{
+    color: #316DC3;
+}
+.green{
+    color: #427900;
+}
+.progress-bar{
+    background-color:#316DC3 ;
+    display: flex;
+    color: ivory;
+    justify-content: space-around;
+}
+.progress-bar p span{
+    color:greenyellow;
+}
+.progress-bar p span.progress-details{
+    color: black;
+}
+.title-para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+
+}
+.title-para h1{
+    margin-bottom: 0;
+}
+.small-logo{
+    display: flex;
+    align-items: center;
+}
+.line{
+border-style: solid;
+    width: 30px;
+    border-bottom-width:0.1px;
+    border-bottom-color:green ;
+    align-self: flex-end;
+}
+.right{
+    margin-left: 10px;
+}
+.left{
+    margin-right: 10px;
+}
+
+.facts{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 100px;
+    font-size: 20px;
+    
+}
+.monthly-work{
+    margin: 50px 0;
+    background-color: #2755E9;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 0;
+}
+.work-items{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.monthly-work img{
+    width: 50px;
+    color: blanchedalmond;
+    
+
+}
+.monthly-work h2{
+    color: blanchedalmond;
+   margin: 8px 0;
+   font-size: 40px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.monthly-work h5{
+    color: blanchedalmond;
+    margin: 0;
+    font-size: 15px;
+}
+.work-items h5 span{
+    font-size: 18px;
+color: #0EC155;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.Journey{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}    
+
+
+.card{
+    
+    margin-bottom: 20px;
+    padding: 10px 0;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 3px 15px 20px 3px rgba(0, 0, 0, 0.16);
+background-color: white;
+}
+.card:hover{
+    transform:scale(1.1);
+    transition: 0.5s transform;
+}
+
+
+.Journey h3{
+    color: #2755E9;
+}
+.future-projects{
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    color: #2755E9;
+}
+.missions{
+    display: flex;
+    flex-direction: column;
+   width: 65%;
+}
+.mission-items{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+}
+.future-projects .line{
+    align-self: flex-start;
+    margin-bottom: 20px;
+    color: #087926f5;
+
+}
+.mission-card{
+    display: flex;
+    align-items: center;
+    background-color: #F7F8FA;
+    width: 40%;
+    margin-bottom: 20px;
+    padding: 7px 20px;
+}
+.mission-card img{
+    margin-right: 30px;
+}
+.events{
+    width: 30%;
+}
+.events p{
+    color: initial;
+}
+.Img-gal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    
+
+}
+.gallery div{
+    margin-right: 5px;
+}
+
+.gallery img{
+    display: flex;
+    width: 100%;
+   margin: 0 2px 0 2px;
+   
+}
+.gallery .i:hover{
+    opacity: 0.5;
+    cursor: pointer;
+   transition: 0.5s opacity;
+}
+
+.info{
+    padding: 70px 0;
+    background-color: #25272E;
+    color: blanchedalmond;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  
+}
+
+.info-lists{
+    list-style-type: none;
+}
+/*.info-lists i{
+    color: green;
+}*/
+.info-top{
+    margin-left: 43px;
+}
+.info #hr{
+     width: 300%;
+}
+.info-centre{
+    margin-left: -127px;
+}
+.connect{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+width: 10%;
+}
+.connect div{
+    margin-right: 10px;
+    margin-top: 10px;
+    
+}
+.connect i{
+    color: teal;
+}
+.bottom-bar{
+    background-color:#316DD9 ;
+    padding :10px 0;
+    color: white;
+    font-size: small;
+}
+.bottom-bar span{
+    margin-left: 120px;
+}
